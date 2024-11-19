@@ -1,11 +1,12 @@
 import "./globals.css";
 
+import MainContainer from "@/components/MainContainer";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <MainContainer>{children}</MainContainer>
       </body>
     </html>
   );
