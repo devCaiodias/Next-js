@@ -1,14 +1,14 @@
+
+
 export default function Home() {
   return (
         <>
-            <head>
-                <title>Pagina inicial</title>
-                <meta name="keyworkds" content="Roupas, calçados, Boné"></meta>
-                <meta name="description" content="Encontre a melhor roupa para vc"></meta>
-            </head>
-            <div>
+              <head>
+                <title>Home</title>
+              </head>
               <h1 className="bg-red-600">Hello Word!</h1>
-            </div>
+              <img src="/img/city.jpg" width="200px" height="200px" alt="cidade" />
+              <img src="/img/pattern.jpg" width="200px" height="200px" alt="cidade" />
         </>
   );
 }
